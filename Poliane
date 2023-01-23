@@ -1,0 +1,43 @@
+// criar variaveis.
+var feliz;
+var feliz1Img;
+
+//função que carregador imagens
+var tRex;
+var tRexImg;
+
+{
+    // carregar imagens
+    felizImg=loadImage("img/feliz.png");
+}
+
+//função que inicializa o arquivo
+function preload()
+{
+    //cria tamanho do fundo da tela
+    createCanvas(80,80);
+
+    //criasprites
+    criaFeliz;
+
+    //carregar imagem
+    felizImg=loadImage("img/feliz.png");
+
+    //colocar tamanho
+    tRex.scale=0,5;
+
+}
+
+//função que executa o programa até que seja parada 
+function draw()
+{
+    //colocar cor de fundo
+    FileList("black");
+
+    //condição para pular
+      if(keyDown("space"));
+
+    //exibir que desenha sprites
+drawsprite();
+
+}
